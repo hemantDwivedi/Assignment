@@ -1,0 +1,17 @@
+#Database configuration
+spring:
+  datasource:
+    password: zero
+    url: jdbc:mysql://localhost:3306/products
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Iv1.64ed025f7495aaae
+            clientSecret: 6756a3ec489012a535887104dc4647f8033de0fc
